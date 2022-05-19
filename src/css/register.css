@@ -1,0 +1,102 @@
+/* khối banner */
+.banner-register, .container-registration{
+    width: 100%;
+    margin: auto;
+    background-color: #f0f2f5;
+    padding-top:92px;
+}
+.banner-register img{
+    display: block;
+    height: auto;
+    margin: auto;
+}
+/* khối đăng ký */
+.container-registration{
+    padding-top: 0px;
+
+}
+.formWrapperSection{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+}
+.ila-ipt {
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #d0d0d0;
+    font-size: 14px;
+    color: #30313b;
+    padding: 10px 15px;
+    width: 50%;
+    background-color: #f0f2f5;
+}
+.wrapper-form-register #fullname{
+    width:calc(50% - 10px) ;
+}
+.wrapper-form-register #phone{
+     width: calc(50% - 10px);
+}
+.ila-slt{
+    display: block;
+    margin-right: 0px;
+    
+}
+input:focus{
+    border-color: #45c0f8 !important;
+}
+.ila-title{
+    color: #174C95;
+    font-size: 26px;
+    font-weight: 700;
+}
+.formWrapperSection p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #585858;
+    padding-bottom: 20px;
+}
+.formWrapperSection h5{
+    font-size: 14px;
+    line-height: 20px;
+    color: #585858;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+/* khối tại sao nên chọn ila */
+.wapper-why-ila{
+    padding: 40px 0;
+    text-align: center;
+}
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.why-content{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.why-content img{
+    max-width: 100%;
+    height: auto;
+}
+.why-content span{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ff0000;
+}
+.why-content p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #2a338f;
+    font-weight: 600;
+}
+.title-why{
+    font-size: 25px;
+    color: #54c0ee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
